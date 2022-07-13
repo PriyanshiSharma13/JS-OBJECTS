@@ -6,5 +6,12 @@
 // Return "true" if new_name and id are same as objects name and id otherwise return  "false".
 
 function check(obj1,a,b) {
-    
+    if(obj1.name == a && obj1.id == b)
+    {
+        return 'true';
+    }
+    else{
+        return 'false';
+    }
 }
+
